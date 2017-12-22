@@ -3,7 +3,7 @@
   <component name="FacetManager">
     <facet type="android-gradle" name="Android-Gradle">
       <configuration>
-        <option name="GRADLE_PROJECT_PATH" value=":stickyindex" />
+        <option name="GRADLE_PROJECT_PATH" value=":demo" />
       </configuration>
     </facet>
     <facet type="android" name="Android">
@@ -22,7 +22,7 @@
       </configuration>
     </facet>
   </component>
-  <component name="NewModuleRootManager">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7">
     <output url="file://$MODULE_DIR$/build/intermediates/classes/debug" />
     <output-test url="file://$MODULE_DIR$/build/intermediates/classes/test/debug" />
     <exclude-output />
@@ -96,7 +96,7 @@
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/tmp" />
       <excludeFolder url="file://$MODULE_DIR$/build/outputs" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="Android API 22 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="com.android.support:support-compat-26.1.0" level="project" />
     <orderEntry type="library" name="com.android.support:recyclerview-v7-26.1.0" level="project" />
@@ -114,6 +114,5 @@
     <orderEntry type="library" name="com.android.support:design-22.2.0" level="project" />
     <orderEntry type="library" name="com.android.support:appcompat-v7-22.2.0" level="project" />
     <orderEntry type="module" module-name="stickyindex" />
-    <orderEntry type="library" name="android-android-22" level="project" />
   </component>
 </module>
