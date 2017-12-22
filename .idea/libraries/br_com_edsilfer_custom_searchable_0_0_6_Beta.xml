@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="br.com.edsilfer:custom-searchable-0.0.6-Beta">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/custom-searchable-0.0.6-Beta.aar/ee2f641582e6659eb477096d9ae75ef9/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/custom-searchable-0.0.6-Beta.aar/ee2f641582e6659eb477096d9ae75ef9/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/br.com.edsilfer/custom-searchable/0.0.6-Beta/480bf4ad2786269aae98e87883118ddcf631ad35/custom-searchable-0.0.6-Beta-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
