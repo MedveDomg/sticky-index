@@ -1,9 +1,7 @@
 package br.com.stickyindexsample;
 
 import android.app.Activity;
-import android.app.ActivityOptions;
 import android.app.Fragment;
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.widget.LinearLayoutManager;
@@ -21,7 +19,6 @@ import java.util.List;
 
 import br.com.stickyindex.StickyIndex;
 import br.com.stickyindexsample.adapter.RecyclerViewAdapter;
-import br.com.stickyindexsample.contracts.AppConstants;
 import br.com.stickyindexsample.dao.ContactsDAO;
 import br.com.stickyindexsample.layout.FastScroller;
 import br.com.stickyindexsample.layout.RecyclerViewOnItemClickListener;
@@ -106,13 +103,13 @@ public class ContactsFragment extends Fragment {
         final View contactName = view.findViewById(R.id.contact_name);
         final Pair<View, String> pair2 = Pair.create(contactName, "contact_name");
 
-        Intent intent = new Intent(mActivity, ContactDetails.class);
-        Bundle b = new Bundle();
-        b.putParcelable(AppConstants.CONTACT_INFORMATION, contact);
-        intent.putExtras(b);
-
-        ActivityOptions options = ActivityOptions.makeSceneTransitionAnimation(mActivity, pair1, pair2);
-        mActivity.startActivity(intent, options.toBundle());
+//        Intent intent = new Intent(mActivity, ContactDetails.class);
+//        Bundle b = new Bundle();
+//        b.putParcelable(AppConstants.CONTACT_INFORMATION, contact);
+//        intent.putExtras(b);
+//
+//        ActivityOptions options = ActivityOptions.makeSceneTransitionAnimation(mActivity, pair1, pair2);
+//        mActivity.startActivity(intent, options.toBundle());
     }
 
     private void implementFabListener () {

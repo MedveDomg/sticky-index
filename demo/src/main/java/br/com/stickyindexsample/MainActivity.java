@@ -9,7 +9,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.transition.Slide;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 import android.widget.Toast;
 
 import com.astuetz.PagerSlidingTabStrip;
@@ -103,8 +102,8 @@ public class MainActivity extends AppCompatActivity {
 
             //this.getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LAYOUT_STABLE | View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN);
 
-            View contactFragmentRootView = ((ContactsFragment) viewPagerAdapter.getItem(1)).getRootView();
-            contactFragmentRootView.invalidate();
+//            View contactFragmentRootView = ((ContactsFragment) viewPagerAdapter.getItem(1)).getRootView();
+//            contactFragmentRootView.invalidate();
 
             return true;
         }
@@ -130,7 +129,7 @@ public class MainActivity extends AppCompatActivity {
 
             if (bundle != null) {
                 ResultItem receivedItem = bundle.getParcelable(CustomSearchableConstants.CLICKED_RESULT_ITEM);
-                ((ContactsFragment) viewPagerAdapter.getItem(1)).updateRecyclerViewFromSearchSelection(receivedItem.getHeader());
+//                ((ContactsFragment) viewPagerAdapter.getItem(1)).updateRecyclerViewFromSearchSelection(receivedItem.getHeader());
             }
         }
     }
