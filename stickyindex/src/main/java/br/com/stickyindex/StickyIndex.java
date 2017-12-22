@@ -2,6 +2,7 @@ package br.com.stickyindex;
 
 import android.content.Context;
 import android.content.res.TypedArray;
+import android.graphics.Typeface;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.util.AttributeSet;
@@ -11,6 +12,8 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
+
+import java.lang.reflect.Type;
 
 import br.com.stickyindex.adapter.IndexAdapter;
 import br.com.stickyindex.layout.IndexLayoutManager;
@@ -147,6 +150,14 @@ public class StickyIndex extends RelativeLayout {
     public void setDataSet(char[] dataSet) {
         this.adapter.setDataSet(dataSet);
         this.adapter.notifyDataSetChanged();
+    }
+
+    public void setTypeFace(Typeface family, int style) {
+        this.adapter.setTypeFace(family,style);
+    }
+
+    public void setHeightRow(int rowHeight) {
+        this.adapter.setHeightRow(rowHeight);
     }
 
     public IndexLayoutManager getStickyIndex() {

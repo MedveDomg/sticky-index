@@ -1,5 +1,6 @@
 package br.com.stickyindex.adapter;
 
+import android.graphics.Typeface;
 import android.support.v7.widget.RecyclerView;
 import android.util.TypedValue;
 import android.view.LayoutInflater;
@@ -16,10 +17,12 @@ public class IndexAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
 
     private char[] dataSet;
     private RowStyle rowStyle;
+    private Typeface family;
+    private int style;
     private char prev;
-
+    private int heightRow;
     // CONSTRUCTOR _________________________________________________________________________________
-    public IndexAdapter (char[] data, RowStyle style) {
+    public IndexAdapter(char[] data, RowStyle style) {
         this.dataSet = data;
         this.rowStyle = style;
     }
@@ -33,7 +36,7 @@ public class IndexAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
         if (rowStyle != null) {
             if (rowStyle.getRowHeigh() != -1) {
                 android.view.ViewGroup.LayoutParams params = view.getLayoutParams();
-                params.height = rowStyle.getRowHeigh().intValue();
+                params.height = heightRow;
                 params.width = rowStyle.getStickyWidth().intValue();
                 view.setLayoutParams(params);
             }
@@ -48,11 +51,8 @@ public class IndexAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
                 index.setTextSize(TypedValue.COMPLEX_UNIT_PX, rowStyle.getTextSize());
             }
 
-            if (rowStyle.getTextStyle() != -1) {
-                index.setTypeface(null, rowStyle.getTextStyle());
-            }
+            index.setTypeface(family, style);
         }
-
         return new IndexViewHolder(view);
     }
 
@@ -72,22 +72,31 @@ public class IndexAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
 
 
     // UTIL ________________________________________________________________________________________
-    private Boolean isHeader (int pos) {
+    private Boolean isHeader(int pos) {
         if (pos == 0) {
             return Boolean.TRUE;
-        } else if (isSameChar(dataSet[pos-1], dataSet[pos])) {
+        } else if (isSameChar(dataSet[pos - 1], dataSet[pos])) {
             return Boolean.FALSE;
         } else {
             return Boolean.TRUE;
         }
     }
 
-    private Boolean isSameChar (char prev, char curr) {
+    private Boolean isSameChar(char prev, char curr) {
         if (Character.toLowerCase(prev) == Character.toLowerCase(curr)) {
             return Boolean.TRUE;
         } else {
             return Boolean.FALSE;
         }
+    }
+
+    public void setTypeFace(Typeface family, int style) {
+        this.family = family;
+        this.style = style;
+    }
+
+    public void setHeightRow(int heightRow) {
+        this.heightRow = heightRow;
     }
 
     // GETTERS AND SETTERS _________________________________________________________________________
@@ -104,8 +113,8 @@ public class IndexAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
     public static class IndexViewHolder extends RecyclerView.ViewHolder {
         TextView index;
 
-        public IndexViewHolder (View v) {
-            super (v);
+        public IndexViewHolder(View v) {
+            super(v);
             index = (TextView) v.findViewById(R.id.sticky_row_index);
         }
     }
@@ -117,7 +126,7 @@ public class IndexAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> 
         Float textSize;
         Integer textStyle;
 
-        public RowStyle (Float rHeight, Float sWidth, Integer tColor, Float tSize, Integer tStyle) {
+        public RowStyle(Float rHeight, Float sWidth, Integer tColor, Float tSize, Integer tStyle) {
             rowHeigh = rHeight;
             stickyWidth = sWidth;
             textColor = tColor;
