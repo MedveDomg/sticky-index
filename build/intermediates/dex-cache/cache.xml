@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/medvedomg/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/26.1.0/814258103cf26a15fcc26ecce35f5b7d24b73f8/support-annotations-26.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0814258103cf26a15fcc26ecce35f5b7d24b73f8">
+        <dex dex="/Users/medvedomg/AndroidStudioProjects/sticky-index/demo/build/intermediates/pre-dexed/debug/support-annotations-26.1.0_d6d440c1dd3e83fe21461b51322a24e7e8e75bb0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/medvedomg/.android/build-cache/0600512346b21eba739af43cd514936e673bd278/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d9793476393cbafb2691540515ce3e5dc694ef12">
+        <dex dex="/Users/medvedomg/AndroidStudioProjects/sticky-index/demo/build/intermediates/pre-dexed/debug/classes_3c8209cceb2968e0ae3ec819e16f5898d5d7c59a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/medvedomg/.android/build-cache/6af77f8459e25ac86fd399ee582bf366bae412aa/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2442771a5590dd4eb4bce00c2e9dca9e22e4c963">
+        <dex dex="/Users/medvedomg/AndroidStudioProjects/sticky-index/demo/build/intermediates/pre-dexed/debug/classes_8fe02ff6496d39e6bc136c7a04dd2ae914d883c0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/medvedomg/.android/build-cache/a3d68d5590046bbab45f055e125f8873aa0470c7/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fc63b820d54c8a27a3a614bdd93920e0076581c2">
+        <dex dex="/Users/medvedomg/AndroidStudioProjects/sticky-index/demo/build/intermediates/pre-dexed/debug/classes_57d2419449076b08e084c9cf480a383312b9a023.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/medvedomg/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/medvedomg/AndroidStudioProjects/sticky-index/demo/build/intermediates/pre-dexed/debug/picasso-2.5.2_67209f9af903219e31584a0f0540ae905280acbb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/medvedomg/.android/build-cache/26794afcf4a36365d0ad60ff35c34c1056592bd3/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b12cd9c87c3dfb012a911b6e38d2444ed0a65e1f">
+        <dex dex="/Users/medvedomg/AndroidStudioProjects/sticky-index/demo/build/intermediates/pre-dexed/debug/classes_37453b8d5cb337f6944310b03a537b3dfe6822a9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/medvedomg/AndroidStudioProjects/sticky-index/stickyindex/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="61281436ef639e0ebda8b91168d15feab12dda11">
+        <dex dex="/Users/medvedomg/AndroidStudioProjects/sticky-index/demo/build/intermediates/pre-dexed/debug/classes_954c1a3f4e6992093273818db9ce6cb2a58500a3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/medvedomg/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.0.0/e414a4cb28434e25c4f6aa71426eb20cf4874ae9/common-1.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e414a4cb28434e25c4f6aa71426eb20cf4874ae9">
+        <dex dex="/Users/medvedomg/AndroidStudioProjects/sticky-index/demo/build/intermediates/pre-dexed/debug/common-1.0.0_80270d4e74fb4b0acab6779d1d1803b39b359202.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/medvedomg/.android/build-cache/5bdf723f7a22911cc089827c595bb7c770d7f55c/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7912610ed96381c25c36d986eba422731b9641b6">
+        <dex dex="/Users/medvedomg/AndroidStudioProjects/sticky-index/demo/build/intermediates/pre-dexed/debug/classes_727143a823fef7b35b4683f2d185482a7db3ac0b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/medvedomg/.android/build-cache/8e7ee90ffacc061ebfff63870e0e2c5c1554d174/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/Users/medvedomg/AndroidStudioProjects/sticky-index/demo/build/intermediates/pre-dexed/debug/classes_0a32c7ba7658cd5051c68134fdc69ec42c16383a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/medvedomg/.android/build-cache/318272832ab3b3e66e88d41fb360f763243ef5eb/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c341a7ad32bc2eef9dcfab239262b77ac60788cc">
+        <dex dex="/Users/medvedomg/AndroidStudioProjects/sticky-index/demo/build/intermediates/pre-dexed/debug/classes_7bfba0f542a6ff7b0a6a6041fac71ad08289f8bf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/medvedomg/.android/build-cache/cc7f0ca5ff3e1572b479e0c193b38ec0782d9e86/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="508f50705b4fde51a16259f29c854201a3044516">
+        <dex dex="/Users/medvedomg/AndroidStudioProjects/sticky-index/demo/build/intermediates/pre-dexed/debug/classes_be0970656d256c37164f9079c4406cae6c691ae8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/medvedomg/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.0.0/a2d487452376193fc8c103dd2b9bd5f2b1b44563/common-1.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a2d487452376193fc8c103dd2b9bd5f2b1b44563">
+        <dex dex="/Users/medvedomg/AndroidStudioProjects/sticky-index/demo/build/intermediates/pre-dexed/debug/common-1.0.0_c7c74d5e5da6a11e18203ef9f3770aa99ab214cc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/medvedomg/.android/build-cache/8e7ee90ffacc061ebfff63870e0e2c5c1554d174/output/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/Users/medvedomg/AndroidStudioProjects/sticky-index/demo/build/intermediates/pre-dexed/debug/internal_impl-22.2.0_85f448f1a69081bef049f29f07d06f9aa0584a49.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/medvedomg/.android/build-cache/1c8fdf747356acf1a7cdb22d00cd86ca522c6928/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="/Users/medvedomg/AndroidStudioProjects/sticky-index/demo/build/intermediates/pre-dexed/debug/classes_cc0298b00257bd7f713ef7acb9ce246b21c9257c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/medvedomg/.android/build-cache/b6fc3b0867cc40b63f5dc4b1510cc57c66154e19/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="00b0b7233e1ec64acebfac40d4983d32d4712426">
+        <dex dex="/Users/medvedomg/AndroidStudioProjects/sticky-index/demo/build/intermediates/pre-dexed/debug/classes_05963f60a61a9e7d08d6782254b4e49edf4acd8c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/medvedomg/.android/build-cache/dbac5c0947ecb4f3b194b67b003212b3eb82837f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b62fdc4cfef174c1e456014195c83fa7de7dc041">
+        <dex dex="/Users/medvedomg/AndroidStudioProjects/sticky-index/demo/build/intermediates/pre-dexed/debug/classes_b22c9f25982cb93a1454935b755ea4ba75109a6d.jar" />
+    </item>
+
+</items>
