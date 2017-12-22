@@ -44,9 +44,9 @@ public class ContactsAdapter extends FragmentPagerAdapter {
             case 0:
                 return FAVORITES_FRAGMENT;
             case 1:
-                return CONTACTS_FRAGMENT;
+//                return CONTACTS_FRAGMENT;
             default:
-                return CONTACTS_FRAGMENT;
+                return FAVORITES_FRAGMENT;
         }
     }
 }
