@@ -76,15 +76,13 @@ public class StickyIndex extends RelativeLayout {
 //        android.view.ViewGroup.LayoutParams params = stickyWrapper.getLayoutParams();
 //        params.width = styles.getStickyWidth().intValue();
 //        stickyWrapper.setLayoutParams(params);
-//        LinearLayout stickyIndexWrapper = (LinearLayout) this.findViewById(R.id.sticky_index_wrapper);
-//        android.view.ViewGroup.LayoutParams params = stickyIndexWrapper.getLayoutParams();
-//        params.height = ViewGroup.LayoutParams.WRAP_CONTENT;
-//        params.width = ViewGroup.LayoutParams.WRAP_CONTENT;
-//        stickyIndexWrapper.setLayoutParams(params);
+        LinearLayout stickyIndexWrapper = (LinearLayout) this.findViewById(R.id.sticky_index_wrapper);
+        android.view.ViewGroup.LayoutParams params = stickyIndexWrapper.getLayoutParams();
+        params.height = ViewGroup.LayoutParams.WRAP_CONTENT;
+        params.width = ViewGroup.LayoutParams.MATCH_PARENT;
+        stickyIndexWrapper.setLayoutParams(params);
 
-//        this.invalidate();
-
-
+        this.invalidate();
 
         this.adapter = new IndexAdapter(dataSet, styles);
         this.indexList.setAdapter(adapter);
