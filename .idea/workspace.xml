@@ -134,14 +134,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StickyIndex.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="StickyIndex.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/stickyindex/src/main/java/br/com/stickyindex/StickyIndex.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="30" column="23" lean-forward="false" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+            <state relative-caret-position="216">
+              <caret line="124" column="30" lean-forward="false" selection-start-line="124" selection-start-column="30" selection-end-line="124" selection-end-column="30" />
               <folding>
-                <element signature="e#6164#6165#0" expanded="true" />
-                <element signature="e#6216#6217#0" expanded="true" />
+                <element signature="e#6195#6196#0" expanded="true" />
+                <element signature="e#6247#6248#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -157,11 +157,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IndexLayoutManager.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="IndexLayoutManager.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stickyindex/src/main/java/br/com/stickyindex/layout/IndexLayoutManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="82" column="22" lean-forward="true" selection-start-line="82" selection-start-column="22" selection-end-line="82" selection-end-column="22" />
+            <state relative-caret-position="54">
+              <caret line="73" column="72" lean-forward="false" selection-start-line="73" selection-start-column="72" selection-end-line="73" selection-end-column="72" />
               <folding />
             </state>
           </provider>
@@ -198,8 +198,8 @@
       <find>gradle</find>
       <find>setHeightRow</find>
       <find>sticky_index</find>
-      <find>stickyIndex</find>
       <find>sticky_index_wrapper</find>
+      <find>stickyIndex</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -2033,8 +2033,8 @@
         <option value="$PROJECT_DIR$/stickyindex/src/main/java/br/com/stickyindex/adapter/IndexAdapter.java" />
         <option value="$PROJECT_DIR$/stickyindex/src/main/res/layout/sticky_row_details.xml" />
         <option value="$PROJECT_DIR$/stickyindex/src/main/res/layout/sticky_index.xml" />
-        <option value="$PROJECT_DIR$/stickyindex/src/main/java/br/com/stickyindex/StickyIndex.java" />
         <option value="$PROJECT_DIR$/stickyindex/src/main/java/br/com/stickyindex/layout/IndexLayoutManager.java" />
+        <option value="$PROJECT_DIR$/stickyindex/src/main/java/br/com/stickyindex/StickyIndex.java" />
       </list>
     </option>
   </component>
@@ -2425,7 +2425,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1514053443054" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1514054093820" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -2473,7 +2473,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1514053443054" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1514054093820" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -2635,7 +2635,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1514053443056" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1514054093821" />
       </method>
     </configuration>
     <list size="3">
@@ -3077,14 +3077,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stickyindex/src/main/java/br/com/stickyindex/listener/IndexScrollListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/stickyindex/src/main/java/br/com/stickyindex/adapter/IndexAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2016">
@@ -3093,22 +3085,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stickyindex/src/main/java/br/com/stickyindex/StickyIndex.java">
+    <entry file="file://$PROJECT_DIR$/stickyindex/src/main/java/br/com/stickyindex/layout/IndexLayoutManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="30" column="23" lean-forward="false" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
-          <folding>
-            <element signature="e#6164#6165#0" expanded="true" />
-            <element signature="e#6216#6217#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="54">
+          <caret line="73" column="72" lean-forward="false" selection-start-line="73" selection-start-column="72" selection-end-line="73" selection-end-column="72" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stickyindex/src/main/java/br/com/stickyindex/layout/IndexLayoutManager.java">
+    <entry file="file://$PROJECT_DIR$/stickyindex/src/main/java/br/com/stickyindex/listener/IndexScrollListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="82" column="22" lean-forward="true" selection-start-line="82" selection-start-column="22" selection-end-line="82" selection-end-column="22" />
+        <state relative-caret-position="144">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stickyindex/src/main/java/br/com/stickyindex/StickyIndex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="124" column="30" lean-forward="false" selection-start-line="124" selection-start-column="30" selection-end-line="124" selection-end-column="30" />
+          <folding>
+            <element signature="e#6195#6196#0" expanded="true" />
+            <element signature="e#6247#6248#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
