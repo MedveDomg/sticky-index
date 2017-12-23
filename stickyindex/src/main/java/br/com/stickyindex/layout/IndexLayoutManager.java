@@ -71,7 +71,7 @@ public class IndexLayoutManager implements Subscriber {
                 // USER SCROLLING DOWN THE RecyclerView
                 if (next <= last) {
                     if (isHeader(firstRowIndex, secondRowIndex)) {
-                        stickyIndex.setVisibility(TextView.INVISIBLE);
+//                        stickyIndex.setVisibility(TextView.INVISIBLE);
                         firstRowIndex.setVisibility(TextView.VISIBLE);
                         firstRowIndex.setAlpha(1 - (Math.abs(firstVisibleView.getY()) / firstRowIndex.getHeight()));
                         secondRowIndex.setVisibility(TextView.VISIBLE);
