@@ -7,7 +7,7 @@
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/index_list"
-        android:layout_width="wrap_content"
+        android:layout_width="60dp"
         android:layout_height="match_parent"
         android:clickable="false"
         android:focusableInTouchMode="false"
@@ -15,7 +15,7 @@
 
     <LinearLayout
         android:id="@+id/sticky_index_wrapper"
-        android:layout_width="wrap_content"
+        android:layout_width="60dp"
         android:layout_height="wrap_content"
         android:gravity="center">
 
@@ -24,7 +24,7 @@
                 android:id="@+id/sticky_index"
                 tools:text="K"
                 android:text="QWE"
-                android:layout_gravity="top"
+                android:layout_gravity="center_vertical"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:visibility="visible" />
