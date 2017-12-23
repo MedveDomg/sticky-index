@@ -86,7 +86,7 @@ public class IndexLayoutManager implements Subscriber {
                     // RESET FIRST ROW STATE
                     firstRowIndex.setVisibility(TextView.INVISIBLE);
                     if ((isHeader(firstRowIndex, secondRowIndex) || (getIndexContext(firstRowIndex) != getIndexContext(secondRowIndex))) && isHeader(firstRowIndex, secondRowIndex)) {
-                        stickyIndex.setVisibility(TextView.INVISIBLE);
+//                        stickyIndex.setVisibility(TextView.INVISIBLE);
                         firstRowIndex.setVisibility(TextView.VISIBLE);
                         firstRowIndex.setAlpha(1 - (Math.abs(firstVisibleView.getY()) / firstRowIndex.getHeight()));
                         secondRowIndex.setVisibility(TextView.VISIBLE);
