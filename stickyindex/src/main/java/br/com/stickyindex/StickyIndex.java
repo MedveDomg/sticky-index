@@ -10,6 +10,7 @@ import android.util.TypedValue;
 import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
@@ -75,6 +76,12 @@ public class StickyIndex extends RelativeLayout {
 //        android.view.ViewGroup.LayoutParams params = stickyWrapper.getLayoutParams();
 //        params.width = styles.getStickyWidth().intValue();
 //        stickyWrapper.setLayoutParams(params);
+        LinearLayout stickyIndexWrapper = (LinearLayout) this.findViewById(R.id.sticky_index_wrapper);
+        android.view.ViewGroup.LayoutParams params = stickyIndexWrapper.getLayoutParams();
+        params.height = ViewGroup.LayoutParams.WRAP_CONTENT;
+        params.width = ViewGroup.LayoutParams.WRAP_CONTENT;
+        stickyIndexWrapper.setLayoutParams(params);
+
         this.invalidate();
 
 
@@ -118,12 +125,8 @@ public class StickyIndex extends RelativeLayout {
     }
 
     private void setStickyIndexStyle (IndexAdapter.RowStyle styles) {
-//        if (styles.getRowHeigh() != -1) {
-//            LinearLayout stickyIndexWrapper = (LinearLayout) this.findViewById(R.id.sticky_index_wrapper);
-//            android.view.ViewGroup.LayoutParams params = stickyIndexWrapper.getLayoutParams();
-//            params.height = 60;
-//            params.width = 60;
-//            stickyIndexWrapper.setLayoutParams(params);
+//       styles if (styles.getRowHeigh() != -1) {
+
 //        }
 
         if (styles.getTextSize() != -1) {
