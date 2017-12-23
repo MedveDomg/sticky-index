@@ -118,12 +118,12 @@ public class StickyIndex extends RelativeLayout {
     }
 
     private void setStickyIndexStyle (IndexAdapter.RowStyle styles) {
-//        if (styles.getRowHeigh() != -1) {
-//            LinearLayout stickyIndexWrapper = (LinearLayout) this.findViewById(R.id.sticky_index_wrapper);
-//            android.view.ViewGroup.LayoutParams params = stickyIndexWrapper.getLayoutParams();
-//            params.height = styles.getRowHeigh().intValue();
-//            stickyIndexWrapper.setLayoutParams(params);
-//        }
+        if (styles.getRowHeigh() != -1) {
+            LinearLayout stickyIndexWrapper = (LinearLayout) this.findViewById(R.id.sticky_index_wrapper);
+            android.view.ViewGroup.LayoutParams params = stickyIndexWrapper.getLayoutParams();
+            params.height = 40;
+            stickyIndexWrapper.setLayoutParams(params);
+        }
 
         if (styles.getTextSize() != -1) {
             stickyIndex.getStickyIndex().setTextSize(TypedValue.COMPLEX_UNIT_PX, styles.getTextSize());
