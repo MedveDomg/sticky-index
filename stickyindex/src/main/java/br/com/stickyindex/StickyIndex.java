@@ -122,6 +122,7 @@ public class StickyIndex extends RelativeLayout {
             LinearLayout stickyIndexWrapper = (LinearLayout) this.findViewById(R.id.sticky_index_wrapper);
             android.view.ViewGroup.LayoutParams params = stickyIndexWrapper.getLayoutParams();
             params.height = 40;
+            params.width = 40;
             stickyIndexWrapper.setLayoutParams(params);
         }
 
