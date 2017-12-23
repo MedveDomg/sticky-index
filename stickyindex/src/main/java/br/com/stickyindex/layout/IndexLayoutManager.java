@@ -52,7 +52,10 @@ public class IndexLayoutManager implements Subscriber {
             updatePosBasedOnReferenceList(referenceList);
 
             View firstVisibleView = indexList.getChildAt(0);
+            if (firstVisibleView == null) return;
             View secondVisibleView = indexList.getChildAt(1);
+            if (secondVisibleView == null) return;
+
 
             TextView firstRowIndex = (TextView) firstVisibleView.findViewById(R.id.sticky_row_index);
             TextView secondRowIndex = (TextView) secondVisibleView.findViewById(R.id.sticky_row_index);
