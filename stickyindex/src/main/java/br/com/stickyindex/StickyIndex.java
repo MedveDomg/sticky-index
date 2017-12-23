@@ -12,8 +12,7 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
-
-import java.lang.reflect.Type;
+import android.widget.TextView;
 
 import br.com.stickyindex.adapter.IndexAdapter;
 import br.com.stickyindex.layout.IndexLayoutManager;
@@ -154,6 +153,8 @@ public class StickyIndex extends RelativeLayout {
 
     public void setTypeFace(Typeface family, int style) {
         this.adapter.setTypeFace(family,style);
+        TextView stickyIndexHeader = (TextView) this.findViewById(R.id.sticky_index);
+        stickyIndexHeader.setTypeface(family, style);
     }
 
     public void setHeightRow(int rowHeight) {
