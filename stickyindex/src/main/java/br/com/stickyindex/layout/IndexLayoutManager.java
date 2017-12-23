@@ -67,7 +67,7 @@ public class IndexLayoutManager implements Subscriber {
             stickyIndex.setVisibility(TextView.VISIBLE);
             firstRowIndex.setAlpha(1);
 
-            if (dy > 0) {
+//            if (dy > 0) {
                 // USER SCROLLING DOWN THE RecyclerView
                 if (next <= last) {
                     if (isHeader(firstRowIndex, secondRowIndex)) {
@@ -80,7 +80,7 @@ public class IndexLayoutManager implements Subscriber {
                         stickyIndex.setVisibility(TextView.VISIBLE);
                     }
                 }
-            } else {
+//            } else {
                 // USER IS SCROLLING UP THE RecyclerVIew
                 if (next <= last) {
                     // RESET FIRST ROW STATE
@@ -94,7 +94,7 @@ public class IndexLayoutManager implements Subscriber {
                         secondRowIndex.setVisibility(TextView.INVISIBLE);
                     }
                 }
-            }
+//            }
 
             if (stickyIndex.getVisibility() == TextView.VISIBLE) {
                 firstRowIndex.setVisibility(TextView.INVISIBLE);
