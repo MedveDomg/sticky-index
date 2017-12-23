@@ -71,10 +71,10 @@ public class StickyIndex extends RelativeLayout {
         IndexAdapter.RowStyle styles = getRowStyle(context, attrs);
 
         // Change sticky width
-        View stickyWrapper = (LinearLayout) this.findViewById(R.id.sticky_index_wrapper);
-        android.view.ViewGroup.LayoutParams params = stickyWrapper.getLayoutParams();
-        params.width = styles.getStickyWidth().intValue();
-        stickyWrapper.setLayoutParams(params);
+//        View stickyWrapper = (LinearLayout) this.findViewById(R.id.sticky_index_wrapper);
+//        android.view.ViewGroup.LayoutParams params = stickyWrapper.getLayoutParams();
+//        params.width = styles.getStickyWidth().intValue();
+//        stickyWrapper.setLayoutParams(params);
         this.invalidate();
 
 
