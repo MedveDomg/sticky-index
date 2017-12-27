@@ -42,7 +42,11 @@ public class IndexLayoutManager implements Subscriber {
     private void updatePosBasedOnReferenceList (RecyclerView referenceRv) {
         View firstVisibleView = referenceRv.getChildAt(0);
         int actual = referenceRv.getChildPosition(firstVisibleView);
-        ((LinearLayoutManager) indexList.getLayoutManager()).scrollToPositionWithOffset(actual, firstVisibleView.getTop() + 0);
+        int offset = 0;
+        if (firstVisibleView != null && firstVisibleView.getTop() != 0) {
+            offset = firstVisibleView.getTop();
+        }
+        ((LinearLayoutManager) indexList.getLayoutManager()).scrollToPositionWithOffset(actual, offset + 0);
     }
 
     // SUBSCRIBER INTERFACE ________________________________________________________________________
@@ -76,7 +80,7 @@ public class IndexLayoutManager implements Subscriber {
                     if (isHeader(firstRowIndex, secondRowIndex)) {
 //                        stickyIndex.setVisibility(TextView.INVISIBLE);
                         firstRowIndex.setVisibility(TextView.VISIBLE);
-                        firstRowIndex.setAlpha(1 - (Math.abs(firstVisibleView.getY()) / firstRowIndex.getHeight()));
+//                        firstRowIndex.setAlpha(1 - (Math.abs(firstVisibleView.getY()) / firstRowIndex.getHeight()));
                         secondRowIndex.setVisibility(TextView.VISIBLE);
                     } else {
                         firstRowIndex.setVisibility(TextView.INVISIBLE);
@@ -91,7 +95,7 @@ public class IndexLayoutManager implements Subscriber {
                     if ((isHeader(firstRowIndex, secondRowIndex) || (getIndexContext(firstRowIndex) != getIndexContext(secondRowIndex))) && isHeader(firstRowIndex, secondRowIndex)) {
 //                        stickyIndex.setVisibility(TextView.INVISIBLE);
                         firstRowIndex.setVisibility(TextView.VISIBLE);
-                        firstRowIndex.setAlpha(1 - (Math.abs(firstVisibleView.getY()) / firstRowIndex.getHeight()));
+//                        firstRowIndex.setAlpha(1 - (Math.abs(firstVisibleView.getY()) / firstRowIndex.getHeight()));
                         secondRowIndex.setVisibility(TextView.VISIBLE);
                     } else {
                         secondRowIndex.setVisibility(TextView.INVISIBLE);
