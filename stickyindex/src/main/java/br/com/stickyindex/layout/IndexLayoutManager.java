@@ -76,7 +76,7 @@ public class IndexLayoutManager implements Subscriber {
                     if (isHeader(firstRowIndex, secondRowIndex)) {
 //                        stickyIndex.setVisibility(TextView.INVISIBLE);
                         firstRowIndex.setVisibility(TextView.VISIBLE);
-                        firstRowIndex.setAlpha(1 - (Math.abs(firstVisibleView.getY()) / firstRowIndex.getHeight()));
+//                        firstRowIndex.setAlpha(1 - (Math.abs(firstVisibleView.getY()) / firstRowIndex.getHeight()));
                         secondRowIndex.setVisibility(TextView.VISIBLE);
                     } else {
                         firstRowIndex.setVisibility(TextView.INVISIBLE);
@@ -91,7 +91,7 @@ public class IndexLayoutManager implements Subscriber {
                     if ((isHeader(firstRowIndex, secondRowIndex) || (getIndexContext(firstRowIndex) != getIndexContext(secondRowIndex))) && isHeader(firstRowIndex, secondRowIndex)) {
 //                        stickyIndex.setVisibility(TextView.INVISIBLE);
                         firstRowIndex.setVisibility(TextView.VISIBLE);
-                        firstRowIndex.setAlpha(1 - (Math.abs(firstVisibleView.getY()) / firstRowIndex.getHeight()));
+//                        firstRowIndex.setAlpha(1 - (Math.abs(firstVisibleView.getY()) / firstRowIndex.getHeight()));
                         secondRowIndex.setVisibility(TextView.VISIBLE);
                     } else {
                         secondRowIndex.setVisibility(TextView.INVISIBLE);

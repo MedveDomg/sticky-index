@@ -81,7 +81,6 @@ public class StickyIndex extends RelativeLayout {
         params.height = ViewGroup.LayoutParams.WRAP_CONTENT;
         params.width = ViewGroup.LayoutParams.MATCH_PARENT;
         stickyIndexWrapper.setLayoutParams(params);
-
         this.invalidate();
 
         this.adapter = new IndexAdapter(dataSet, styles);
